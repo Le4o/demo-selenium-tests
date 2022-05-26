@@ -1,0 +1,17 @@
+{
+  "name": "demo-selenium-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha scripts",
+    "test-single": "./node_modules/.bin/mocha scripts/compraProduto.spec.js"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "selenium-webdriver": "^4.1.2"
+  }
+}
